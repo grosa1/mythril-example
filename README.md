@@ -6,8 +6,8 @@ conda activate sc-analysis
 python3 -m pip install mythril
 
 # run
-git clone https://github.com/grosa1/solidity-nft-auction.git
-cd solidity-nft-auction
+git clone https://github.com/grosa1/mythril-example.git
+cd mythril-example
 npm i
 myth analyze contracts/NFTAuction.sol --solc-json remapping.json
 ```
